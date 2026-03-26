@@ -1,0 +1,20 @@
+{
+    "name": "tools/querybuilder",
+    "description": "A lightweight PHP library for fast SQLite queries",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Linh"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tools\\Querybuilder\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    }
+}
