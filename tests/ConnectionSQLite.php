@@ -1,6 +1,6 @@
 <?php
 
-class ConnectionSQlite {
+class ConnectionSQLite {
     protected $pdo;
 
     public function __construct($path) {
